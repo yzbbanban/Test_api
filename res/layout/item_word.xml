@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="2016-5-14"
+        android:textColor="#515151" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEmptyView是一个小轮子"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tv_writer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Barry"
+        android:textColor="#ff0000" />
+
+</LinearLayout>
